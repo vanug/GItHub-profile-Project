@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #010409;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; 
+    height: 100vh;
+    margin: 0;
+  }
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.beforesearch{
+    height: 100%;
+    margin-top: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 10px;
+   margin-bottom: 25px;
+}
+.input{
+    padding:1em ;
+    background-color: #0d1117;
+}
+.search{
+    padding: 1em;
+    background-color: #0d1117;
+}
+
+.profile-card {
+    background: #0d1117;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+  }
+  .profile-image img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .bio{
+    font-size: 13px;
+    margin-top:10px ;
+  }
